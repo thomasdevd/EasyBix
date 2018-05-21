@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48944" started-at="2018-04-25T19:56:38Z" finished-at="2018-04-25T19:57:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48944" started-at="2018-04-25T19:56:38Z" finished-at="2018-04-25T19:57:27Z">
+      <class name="com.Report.ExtentReport">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="startTest" is-config="true" duration-ms="218" started-at="2018-04-25T12:56:38Z" finished-at="2018-04-25T12:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="openApplication" is-config="true" duration-ms="21692" started-at="2018-04-25T12:56:39Z" finished-at="2018-04-25T12:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="FAIL" signature="fillRegistrationformTest()[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="fillRegistrationformTest" duration-ms="711" started-at="2018-04-25T12:57:00Z" finished-at="2018-04-25T12:57:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FaceBook Home] but found [Facebook – log in or sign up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FaceBook Home] but found [Facebook – log in or sign up]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.Report.ExtentReport.fillRegistrationformTest(ExtentReport.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillRegistrationformTest -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="setTestResult" is-config="true" duration-ms="3968" started-at="2018-04-25T12:57:01Z" finished-at="2018-04-25T12:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillRegistrationformTest status=FAILURE method=ExtentReport.fillRegistrationformTest()[pri:0, instance:com.Report.ExtentReport@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="openApplication" is-config="true" duration-ms="19481" started-at="2018-04-25T12:57:05Z" finished-at="2018-04-25T12:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyTittleTest()[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="verifyTittleTest" duration-ms="28" started-at="2018-04-25T12:57:25Z" finished-at="2018-04-25T12:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTittleTest -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="setTestResult" is-config="true" duration-ms="2645" started-at="2018-04-25T12:57:25Z" finished-at="2018-04-25T12:57:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTittleTest status=SUCCESS method=ExtentReport.verifyTittleTest()[pri:0, instance:com.Report.ExtentReport@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Report.ExtentReport@16c48ac]" name="endTest" is-config="true" duration-ms="177" started-at="2018-04-25T12:57:27Z" finished-at="2018-04-25T12:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Report.ExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
